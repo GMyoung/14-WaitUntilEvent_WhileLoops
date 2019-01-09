@@ -82,8 +82,8 @@ def print_an_integer_many_times_on_one_row():
     LOL = 2*x
     AFK = ''
     for k in range(x):
-        LOLOL = AFK + str(LOL)
-    print(LOLOL)
+        AFK = AFK + str(LOL)
+    print(AFK)
 
     """
     Same as the previous problem, but print the numbers
@@ -98,7 +98,7 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
@@ -107,6 +107,12 @@ def print_an_integer_many_times_on_one_row():
 
 
 def input_it_all():
+    x = float(input('please leave a message after beep:'))
+    y = int(input('please leave a message after beep:'))
+    z = input('please leave a message after beep:')
+    for k in range(y):
+        
+
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
