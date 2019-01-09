@@ -6,8 +6,8 @@ This module demonstrates how to INPUT from the CONSOLE:
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Yicheng Yang.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 # TODO: 2.  Read and run this program.  Then do the following problems,
@@ -15,7 +15,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #
 #   1. Write a line of code that would input an INTEGER from the
 #      console, storing the integer in a variable called 'x'.
-#      Write your line here:
+#      Write your line here: x = int(input(''))
 #
 #   2. Write a line of code that would input an FLOAT from the console,
 #      storing the float in a variable called 'x'.

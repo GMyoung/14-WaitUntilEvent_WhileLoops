@@ -3,19 +3,22 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Yicheng Yang.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
     """ TESTs the functions in this module (by calling them). """
-    double_a_float()
-    print_an_integer_many_times()
+    # double_a_float()
+    # print_an_integer_many_times()
     print_an_integer_many_times_on_one_row()
-    input_it_all()
+    # input_it_all()
 
 
 def double_a_float():
+    x = float(input('please leave a message after beep:'))
+    x = x * 2
+    print(x)
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
@@ -31,12 +34,19 @@ def double_a_float():
          -6.28
     """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DONE: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
 
 def print_an_integer_many_times():
+    x = int(input('please leave a message after beep:'))
+    LOL = (x)
+    for k in range(LOL):
+        print(x)
+
+
+
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
@@ -62,12 +72,19 @@ def print_an_integer_many_times():
          10
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
 
 def print_an_integer_many_times_on_one_row():
+    x = int(input('please leave a message after beep:'))
+    LOL = 2*x
+    AFK = ''
+    for k in range(x):
+        LOLOL = AFK + str(LOL)
+    print(LOLOL)
+
     """
     Same as the previous problem, but print the numbers
     on a single line with no spaces in between them.
