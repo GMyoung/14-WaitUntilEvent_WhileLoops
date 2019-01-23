@@ -330,7 +330,7 @@ def prime_gap(m):
         a = a + 1
         if next_prime(a+1) - a >= m:
             return a
-
+ 
 
     """
     What comes in:  An integer   m   that is at least 2.
