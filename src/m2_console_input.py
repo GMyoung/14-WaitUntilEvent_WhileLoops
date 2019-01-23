@@ -6,7 +6,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          and Yicheng Yang.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-
+import math
 def main():
     """ TESTs the functions in this module (by calling them). """
     # double_a_float()
@@ -107,12 +107,17 @@ def print_an_integer_many_times_on_one_row():
 
 
 def input_it_all():
-    x = float(input('please leave a message after beep:'))
-    y = int(input('please leave a message after beep:'))
-    z = input('please leave a message after beep:')
-    for k in range(y):
-        
+    a = float(input('please leave a message after beep:'))
+    b = int(input('please leave a message after beep:'))
+    c = input('please leave a message after beep:')
+    d = str(math.sqrt(a))
+    for x in range(b):
+        print(d)
 
+    k = 0
+    while k < b:
+        print(c)
+        k = k + 1
     """
     What comes in: Nothing.
     What goes out: Nothing (i.e. None)
